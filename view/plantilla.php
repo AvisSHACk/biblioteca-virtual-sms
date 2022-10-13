@@ -33,6 +33,7 @@
             if($_GET['pagina'] === "registro" ||
                 $_GET['pagina'] === "login" ||
                 $_GET['pagina'] === "inicio" ||
+                $_GET['pagina'] === "dashboard-autor" ||
                 $_GET['pagina'] === "salir") {
                     include "paginas/" . $_GET["pagina"] . ".php";
                 } else {
