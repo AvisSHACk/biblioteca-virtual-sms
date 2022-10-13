@@ -1,5 +1,5 @@
 <?php 
-require_once "model/conexion.php";
+require_once "conexion.php";
 Class ModeloRegistro {
     static function registrarUsuario($tabla, $datos) {
         $stmt = Conexion::conectar() -> prepare("INSERT INTO $tabla(nombres, apellidos, photoPerfil, email, contrasena, rol) VALUES(:nombres, :apellidos, :photoPerfil, :email, :contrasena, :rol)");
