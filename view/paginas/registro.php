@@ -1,0 +1,1 @@
+<?php require_once "componentes/contenido_registro.php"?>
