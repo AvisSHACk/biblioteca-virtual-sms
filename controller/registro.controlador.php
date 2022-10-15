@@ -43,7 +43,8 @@ Class ControladorRegistro {
                     if(window.history.replaceState) {
                         window.history.replaceState(null, null, window.location.href);
                     }
-                    window.location = 'inicio'
+                    window.location = 'inicio';
+
                 </script>";
 
             return $respuestas;
