@@ -45,7 +45,7 @@
                 $_GET['pagina'] === "salir") {
                     include "paginas/" . $_GET["pagina"] . ".php";
                 } else {
-                    // include "paginas/error404.php"; 
+                    include "paginas/error404.php"; 
                 }
         } else {
             include "paginas/login.php";

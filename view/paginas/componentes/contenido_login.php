@@ -32,10 +32,10 @@
 					<?php 
 
 						$ingreso = new ControladorRegistro();
-						// $ingreso -> ingresoUsuario();
-						echo "<pre>";
-						var_dump($ingreso -> ingresoUsuario());
-						echo "</pre>";
+						$ingreso -> ingresoUsuario();
+						// echo "<pre>";
+						// var_dump($ingreso -> ingresoUsuario());
+						// echo "</pre>";
 
 					?>
 

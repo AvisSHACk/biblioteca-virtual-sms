@@ -25,15 +25,15 @@
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Ingrese Grado">
+					<!-- <div class="wrap-input100 validate-input" data-validate = "Ingrese Grado">
 						<input class="input100" type="number" name="grado_registro" placeholder="Grado">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Ingrese Seccion">
 						<input class="input100" type="text" name="seccion_registro" placeholder="Seccion">
-						<span class="focus-input100" data-placeholder="&#xf207;"></span>
-					</div>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span> -->
+					<!-- </div> -->
 
 					<div class="wrap-input100 validate-input" data-validate = "Ingrese Email">
 						<input class="input100" type="text" name="email_registro" placeholder="Email">
